@@ -164,7 +164,7 @@ export default {
 			const rates = this.convertDates(this.tariff.rates);
 			const oneHour = 60 * 60 * 1000;
 
-			for (let i = 0; i < 42; i++) {
+			for (let i = 0; i < 96; i++) {
 				const start = new Date(this.startTime.getTime() + oneHour * i);
 				const startHour = start.getHours();
 				start.setMinutes(0);
